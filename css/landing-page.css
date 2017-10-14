@@ -1,0 +1,293 @@
+/*!
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body, html {
+  
+    max-width: 100%;
+    overflow-x: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.text-center {
+    margin-top: 15px;
+}
+
+.intro-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/hotel.png) no-repeat center center;
+  background-size: cover;
+}
+.hgo {
+        padding-left: 22px;
+    }  
+
+.phone {
+    margin-left: 5px;
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.intro-message>h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 5em;
+}
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message>h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-social-buttons i {
+  font-size: 80%;
+}
+
+.bout {
+  text-align: center;
+    padding: 40px;
+}
+
+@media(max-width:767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
+  .intro-message>h1 {
+    font-size: 3em;
+  }
+  ul.intro-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.intro-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+  .intro-divider {
+    width: 100%;
+  }
+}
+
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.content-section-a {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+.content-section-b {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+  margin-bottom: 30px;
+  text-align: center;    
+}
+
+.section-heading-spacer {
+  float: left;
+  width: 340px;
+  border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+  padding: 80px 50px;
+  color: #f8f8f8;
+  background: url(../img/flower.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.banner h2 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 3em;
+}
+
+.banner ul {
+  margin-bottom: 0;
+}
+/*
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+  margin-right: 215px    
+    
+}
+*/
+
+@media (min-width: 2000px) {
+    
+    .phone {
+        margin-left: 100px;
+    }
+    
+}
+
+
+@media(min-width:1400px) and (max-width:2000px){
+.phone {
+ margin-left: 90px; 
+}
+    .bottom {
+        padding-left: 375px;
+    }    
+}
+
+@media(min-width:1000px) and (max-width:1400px){
+.phone {
+ margin-left: 80px; 
+}
+.bottom {
+        padding-left: 300px;
+    }     
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+.sofit {
+    padding-left: 38px;
+    }
+.turn {
+    padding-left: 50px;     
+    }    
+.jam  {
+    padding-left: 35px;    
+    }    
+    .gram   {
+    padding-left: 10px;    
+    }    
+  .banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+    margin-left: 270px;  
+  }
+    .hgo {
+        padding-left: 22px;
+    }  
+   
+    p {
+        margin: 15px;
+    }
+    .bottom {
+        padding-left: 325px;
+        padding-top: 15px;
+    }
+    p.copyright{
+        margin: 20px 115px 0;
+    }
+    .phone {
+        margin-right: 85px; 
+    }
+}
+
+@media (min-width: @screen-sm-min) {
+ .sofit {
+    padding-left: 38px;
+    }
+.turn {
+    padding-left: 50px;     
+    }    
+.jam  {
+    padding-left: 35px;    
+    }    
+    .gram   {
+    padding-left: 10px;    
+    }  
+    .hgo {
+        padding-left: 15px;
+    }
+   
+  }
+ .bottom {
+        margin-left: 420px;
+    }
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+        
+    .bottom{
+        
+        margin-left: 19px;
+}
+    
+}
+@media (min-width: 500px) and (max-width: 800px)
+    .hgo {
+        padding-left: 22px;
+    }  
+ .sofit {
+    padding-left: 40px;
+    }
+.turn {
+    padding-left: 55px;     
+    }    
+.jam  {
+    padding-left: 45px;    
+    }    
+    .gram   {
+    padding-left: 10px;    
+    }    
+.bottom {
+    margin-left: 15px;
+}
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+  ul.banner-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+    .phone {
+        margin-left: ;
+    }    
+}
+
+footer {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+p.copyright {
+  margin: 15px 0 0;
+}
+
+.btn-secondary{
+    color: #156b29;
+    background-color: rgba(233, 236, 239, 0.6);
+    
+}
+
+a {
+    padding: 10px;
+}
+
